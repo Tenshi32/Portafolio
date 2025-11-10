@@ -30,19 +30,43 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
             <div class="container px-5">
                 <a class="navbar-brand" href="index.html">
+                    <span class="fw-bolder text-primary">Angel Leon</span>
+                </a>
 
-                    <span class="fw-bolder text-primary">Angel Leon</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4 gap-2 fw-bolder">
-                        <li class="nav-item"><a class="nav-link text-gradient "
-                                href="https://www.linkedin.com/in/angel-leon-a52645252/"><i
-                                    class="bi bi-linkedin"></i></a></li>
-                        <li class="nav-item"><a class="nav-link text-gradient text-lg"
-                                href="https://github.com/Tenshi32"><i class="bi bi-github"></i></a></li>
+
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="langMenu"
+                                data-bs-toggle="dropdown" aria-expanded="true">
+                                🌐 Idioma
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="langMenu">
+                                <li><a class="dropdown-item lang-select" data-lang="es" href="#">Español</a></li>
+                                <li><a class="dropdown-item lang-select" data-lang="en" href="#">English</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link text-gradient "
+                                href="https://www.linkedin.com/in/angel-leon-a52645252/">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-gradient text-lg"
+                                href="https://github.com/Tenshi32">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -55,17 +79,19 @@
                     <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                         <div class="text-center text-xxl-start">
                             <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
-                                <div class="text-uppercase">Diseñador &middot; Desarrollador</div>
+                                <div class="text-uppercase" data-key="inicio_title_sub">Diseñador | Desarrollador</div>
                             </div>
-                            <div class="fs-3 fw-light text-muted">Puedo ayudar a su empresa a</div>
-                            <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Conéctate y
+                            <div class="fs-3 fw-light text-muted" data-key="hero_subtitle">Puedo ayudar a su empresa a
+                            </div>
+                            <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline"
+                                    data-key="hero_title">Conéctate y
                                     crece rápidamente</span></h1>
                             <div
                                 class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                 <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
-                                    href="#resumen">Resumen</a>
+                                    href="#resumen" data-key="Resume_title">Resumen</a>
                                 <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
-                                    href="#proyectos">Projectos</a>
+                                    href="#proyectos" data-key="proyects_title">Projectos</a>
                             </div>
                         </div>
                     </div>
@@ -83,21 +109,25 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xxl-8">
                         <div class="text-center my-5">
-                            
-                            <h3 class="display-5 fw-bolder"><span class="text-gradient d-inline">Acerca de mí..</span></h3>
-                            <p class="lead fw-light mb-4">Mi nombre es Ángel León y tengo más de 3 años de experiencia
+
+                            <h3 class="display-5 fw-bolder"><span class="text-gradient d-inline"
+                                    data-key="about_title">Acerca de mí..</span>
+                            </h3>
+                            <p class="lead fw-light mb-4" data-key="about_text">Mi nombre es Ángel León y tengo más de 3
+                                años de experiencia
                                 en
                                 desarrollo de aplicaciones y sitios web.</p>
-                            
-                                <p class="text-muted">Mi objetivo es aplicar mis habilidades para crear soluciones eficaces
+
+                            <p class="text-muted" data-key="about_text_plus">Mi objetivo es aplicar mis habilidades para crear soluciones eficaces
                                 y eficientes
                                 que contribuyan al éxito del equipo. Soy una persona proactiva con excelentes
                                 habilidades para la
                                 resolución de problemas y aprendo rápido, siempre comprometido con la excelencia en cada
                                 tarea.</p>
 
-                           
+
                             <div class="d-flex justify-content-center fs-2 gap-4">
+
                                 <a class="text-gradient" href="https://www.linkedin.com/in/angel-leon-a52645252/"><i
                                         class="bi bi-linkedin"></i></a>
                                 <a class="text-gradient" href="https://github.com/Tenshi32"><i
@@ -112,7 +142,7 @@
         <section id="proyectos" class="py-5">
             <div class="container px-5 mb-5">
                 <div class="text-center mb-5">
-                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Proyectos</span></h1>
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline" data-key="proyects_title">Proyectos</span></h1>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -121,8 +151,8 @@
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center flex-column flex-md-row">
                                     <div class="p-4 p-md-5">
-                                        <h2 class="fw-bolder">APP WEB para la E.B.N.B CIRO MALDONADO ZERPA</h2>
-                                        <p>Aplicacion Web para la optimizacion de las actividades administrativas, se
+                                        <h2 class="fw-bolder" data-key="proyects_ciro_title">APP WEB para la E.B.N.B CIRO MALDONADO ZERPA</h2>
+                                        <p data-key="proyects_ciro_plus">Aplicacion Web para la optimizacion de las actividades administrativas, se
                                             busco mejorar la eficiencia en la gestión de los procesos y actividades
                                             del departamento administrativo, lo que permitio a la escuela ciro Maldonado
                                             Zerpa a cumplir con su misión de promover una educación integral enmarcada
@@ -140,7 +170,7 @@
                                 <div class="d-flex align-items-center flex-column flex-md-row">
                                     <div class="p-4 p-md-5">
                                         <h2 class="fw-bolder">APP WEB SIDCCAMBI</h2>
-                                        <p>
+                                        <p data-key="proyects_SIDCCAMBI_plus">
                                             Aplicación Web para la Optimización de los Procesos de la Dirección de
                                             Catastro de la Alcaldia del Municipio Mario Briceño Iragorry del Estado
                                             Aragua,
@@ -161,7 +191,7 @@
 
         <div id="resumen" class="container px-5 my-5">
             <div class="text-center mb-5">
-                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resumen</span></h1>
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline" data-key="Resume_title">Resumen</span></h1>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -170,11 +200,11 @@
 
                         <div class="row mb-3">
                             <div class="col mb-4 mb-lg-0">
-                                <h2 class="text-primary fw-bolder mb-0">Experiencia</h2>
+                                <h2 class="text-primary fw-bolder mb-0" data-key="Experence_title">Experiencia</h2>
                             </div>
                             <div class="col mb-4 mb-lg-0"></div>
                             <div class="col mb-4 mb-lg-0">
-                                <a class="btn btn-primary px-4 py-3" href="Curriculum Informatica.pdf" download>
+                                <a class="btn btn-primary px-4 py-3" href="Curriculum Informatica.pdf" download data-key="Experence_btn">
                                     <div class="d-inline-block bi bi-download me-2"></div>
                                     Descargar Resumen
                                 </a>
@@ -192,15 +222,15 @@
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
 
                                         <div class="bg-light p-4 rounded-4">
-                                            <div class="text-primary fw-bolder mb-2">2023 - Presente</div>
-                                            <div class="small fw-bolder">Desarrollo Web</div>
+                                            <div class="text-primary fw-bolder mb-2" data-key="Present">2023 - Presente</div>
+                                            <div class="small fw-bolder" data-key="Experence_title_sub_1">Desarrollo Web</div>
                                             <div class="small text-muted">Dirección de Catastro de MBI</div>
                                             <div class="small text-muted">Aragua, Maracay</div>
                                         </div>
 
                                     </div>
 
-                                    <div class="col-lg-8">
+                                    <div class="col-lg-8" data-key="Experence_1">
                                         Aplicación Web para la Optimización de los Procesos de la Dirección de
                                         Catastro de la Alcaldia del Municipio Mario Briceño Iragorry del Estado
                                         Aragua, un sistema que permitio a la dirección de catastro, gestionar de
@@ -222,13 +252,13 @@
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div class="bg-light p-4 rounded-4">
                                             <div class="text-primary fw-bolder mb-2">2021 - 2023</div>
-                                            <div class="small fw-bolder">Desarrollo Web</div>
+                                            <div class="small fw-bolder" data-key="Experence_title_sub_1">Desarrollo Web</div>
                                             <div class="small text-muted">E.B.N.B CIRO MALDONADO ZERPA</div>
                                             <div class="small text-muted">Aragua, Maracay</div>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-8">
+                                    <div class="col-lg-8" data-key="Experence_2">
                                         Aplicacion Web para la optimizacion de las actividades administrativas, se
                                         busco mejorar la eficiencia en la gestión de los procesos y actividades
                                         del departamento administrativo, lo que permitio a la escuela ciro Maldonado
@@ -249,7 +279,7 @@
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div class="bg-light p-4 rounded-4">
                                             <div class="text-primary fw-bolder mb-2">2020 - 2021</div>
-                                            <div class="small fw-bolder">Soporte Tecnico</div>
+                                            <div class="small fw-bolder" data-key="Experence_title_sub_2">Soporte Tecnico</div>
                                             <div class="small text-muted">C.A.I.P.A</div>
                                             <div class="small text-muted">Aragua, Maracay</div>
                                         </div>
@@ -257,7 +287,7 @@
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div class="bg-light p-4 rounded-4">
                                             <div class="text-primary fw-bolder mb-2">2019 - 2020</div>
-                                            <div class="small fw-bolder">Soporte Tecnico</div>
+                                            <div class="small fw-bolder" data-key="Experence_title_sub_2">Soporte Tecnico</div>
                                             <div class="small text-muted">Zona Educativa Estado Aragua</div>
                                             <div class="small text-muted">Aragua, Maracay</div>
                                         </div>
@@ -269,7 +299,7 @@
                     </section>
                     <!-- Education Section-->
                     <section>
-                        <h2 class="text-secondary fw-bolder mb-4">Educación</h2>
+                        <h2 class="text-secondary fw-bolder mb-4" data-key="Educación_title">Educación</h2>
 
                         <!-- Education Card 2-->
                         <div class="card shadow border-0 rounded-4 mb-5">
@@ -293,17 +323,17 @@
                                             <ul class="list-unstyled mb-0 ms-3">
                                                 <li class="mb-2 d-flex align-items-start">
                                                     <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
-                                                    <span>Especialización en desarrollo de software y gestión de
+                                                    <span data-key="Educación_TSU_1">Especialización en desarrollo de software y gestión de
                                                         bases de datos.</span>
                                                 </li>
                                                 <li class="mb-2 d-flex align-items-start">
                                                     <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
-                                                    <span>Dominio de lenguajes de programación clave como PHP,
+                                                    <span data-key="Educación_TSU_2">Dominio de lenguajes de programación clave como PHP,
                                                         JavaScript y JSON.</span>
                                                 </li>
                                                 <li class="mb-2 d-flex align-items-start">
                                                     <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
-                                                    <span>Proyecto enfocado en automatización de procesos
+                                                    <span data-key="Educación_TSU_3">Proyecto enfocado en automatización de procesos
                                                         administrativos .</span>
                                                 </li>
                                             </ul>
@@ -318,7 +348,7 @@
                                 <div class="row align-items-center gx-5">
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div class="bg-light p-4 rounded-4">
-                                            <div class="text-secondary fw-bolder mb-2">2023 - Presente</div>
+                                            <div class="text-secondary fw-bolder mb-2" data-key="Present">2023 - Presente</div>
                                             <div class="mb-2">
                                                 <div class="small fw-bolder">UPTAragua</div>
                                                 <div class="small text-muted">Venezuela, Aragua, Maracay</div>
@@ -335,17 +365,17 @@
                                             <ul class="list-unstyled mb-0 ms-3">
                                                 <li class="mb-2 d-flex align-items-start">
                                                     <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
-                                                    <span>Especialización en desarrollo de software y gestión de
+                                                    <span data-key="Educación_ING_1">Especialización en desarrollo de software y gestión de
                                                         bases de datos.</span>
                                                 </li>
                                                 <li class="mb-2 d-flex align-items-start">
                                                     <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
-                                                    <span>Dominio en Programacion Orientado Objeto y de lenguajes de
+                                                    <span data-key="Educación_ING_2">Dominio en Programacion Orientado Objeto y de lenguajes de
                                                         programación clave como PHP, JavaScript, JSON y AJAX.</span>
                                                 </li>
                                                 <li class="mb-2 d-flex align-items-start">
                                                     <i class="bi bi-check-circle-fill text-success me-2 mt-1"></i>
-                                                    <span>Proyecto enfocado en automatización de procesos
+                                                    <span data-key="Educación_ING_3">Proyecto enfocado en automatización de procesos
                                                         administrativos catastrales.</span>
                                                 </li>
                                             </ul>
@@ -369,44 +399,44 @@
                                             class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3 p-3 p-md-4">
                                             <i class="bi bi-tools"></i>
                                         </div>
-                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Habilidades
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline" data-key="skill_title">Habilidades
                                                 Profesionales</span></h3>
                                     </div>
                                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                                         <div class="col">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_1">
                                                 Desarrollador Web</div>
                                         </div>
                                         <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_2">
                                                 Desarrollo Full Stack</div>
                                         </div>
                                         <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_3">
                                                 Diseño de Interfaces Responsivas (UI/UX)</div>
                                         </div>
                                     </div>
                                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                                         <div class="col">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_4">
                                                 Gestión de Bases de Datos</div>
                                         </div>
                                         <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_5">
                                                 Integración de APIs y Servicios Web</div>
                                         </div>
                                         <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_6">
                                                 Optimización y Seguridad Web</div>
                                         </div>
                                     </div>
                                     <div class="row row-cols-1 row-cols-md-3 mb-4">
                                         <div class="col">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_7">
                                                 Trabajo en Equipo y Comunicación Efectiva</div>
                                         </div>
                                         <div class="col mb-4 mb-md-0">
-                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100" data-key="skill_8">
                                                 Resolución de Problemas y Pensamiento Lógico</div>
                                         </div>
                                     </div>
@@ -420,7 +450,7 @@
                                             class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3 p-3 p-md-4">
                                             <i class="bi bi-code-slash"></i>
                                         </div>
-                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">lenguajes</span>
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline" data-key="language_title">lenguajes</span>
                                         </h3>
                                     </div>
                                     <div class="row row-cols-1 row-cols-md-3 mb-4">
@@ -472,11 +502,13 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="lang/lang.js"></script>
+    
+
 </body>
 
 </html>

@@ -1,0 +1,53 @@
+{
+  "hero_subtitle": "Puedo ayudar a su empresa a",
+  "hero_title": "Conéctate y crece rápidamente",
+  "inicio_title_sub": "Diseñador | Desarrollador",
+  "Inicio_btn_1": "Resumen",
+  "Inicio_btn_2": "Proyectos",
+
+  "about_title": "Acerca de mí..",
+  "about_text": "Mi nombre es Ángel León y tengo más de 3 años de experiencia en desarrollo de aplicaciones y sitios web.",
+  "about_text_plus": "Mi objetivo es aplicar mis habilidades para crear soluciones eficaces y eficientes que contribuyan al éxito del equipo. Soy una persona proactiva con excelentes habilidades para la resolución de problemas y aprendo rápido, siempre comprometido con la excelencia en cada tarea.",
+  
+  "proyects_title": "Proyectos",
+  
+  "proyects_ciro_title": "APP WEB para la E.B.N.B CIRO MALDONADO ZERPA",
+  "proyects_ciro_plus": "Aplicacion Web para la optimizacion de las actividades administrativas, se busco mejorar la eficiencia en la gestión de los procesos y actividades del departamento administrativo, lo que permitio a la escuela ciro Maldonado Zerpa a cumplir con su misión de promover una educación integral enmarcada bajo nuestra constitución garantizando los valores éticos y morales, para lograr una buena convivencia, dentro y fuera de la institución.",
+  
+  "proyects_SIDCCAMBI_plus": "Aplicación Web para la Optimización de los Procesos de la Dirección de Catastro de la Alcaldia del Municipio Mario Briceño Iragorry del Estado Aragua, un sistema que permitio a la dirección de catastro, gestionar de manera eficiente el funcionamiento de los procesos administrativo en los centros y puestos de trabajo ubicados en el área mencionada (alcaldia).",
+  
+  "Resume_title": "Resumen",
+
+  "Experence_title": "Experiencia",
+  "Experence_btn": "Descargar Resumen",
+  "Experence_title_sub_1": "Desarrollo Web",
+  "Present": "2023 - Presente",
+  "Experence_title_sub_2": "Soporte Tecnico",
+  "Experence_1": "Aplicación Web para la Optimización de los Procesos de la Dirección de Catastro de la Alcaldia del Municipio Mario Briceño Iragorry del Estado Aragua, un sistema que permitio a la dirección de catastro, gestionar de manera eficiente el funcionamiento de los procesos administrativo en los centros y puestos de trabajo ubicados en el área mencionada (alcaldia).",
+  "Experence_2": "Aplicacion Web para la optimizacion de las actividades administrativas, se busco mejorar la eficiencia en la gestión de los procesos y actividades del departamento administrativo, lo que permitio a la escuela ciro Maldonado Zerpa a cumplir con su misión de promover una educación integral enmarcada bajo nuestra constitución garantizando los valores éticos y morales, para lograr una buena convivencia, dentro y fuera de la institución.",
+  
+
+  "Educación_title": "Educación",
+  "Educación_title_sub_1": "TSU en Informática",
+  "Educación_title_sub_2": "Ingeniería en Informática",
+
+  "Educación_TSU_1": "Especialización en desarrollo de software y gestión de bases de datos.",
+  "Educación_TSU_2": "Dominio de lenguajes de programación clave como PHP, JavaScript y JSON.",
+  "Educación_TSU_3": "Proyecto enfocado en automatización de procesos administrativos.",
+
+  "Educación_ING_1": "Especialización en desarrollo de software y gestión de bases de datos.",
+  "Educación_ING_2": "Dominio en Programacion Orientado Objeto y de lenguajes de programación clave como PHP, JavaScript, JSON y AJAX.",
+  "Educación_ING_3": "Proyecto enfocado en automatización de procesos administrativos catastrales.",
+
+  "skill_title": "Habilidades Profesionales",
+  "skill_1": "Desarrollador Web",
+  "skill_2": "Desarrollo Full Stack",
+  "skill_3": "Diseño de Interfaces Responsivas (UI/UX)",
+  "skill_4": "Gestión de Bases de Datos",
+  "skill_5": "Integración de APIs y Servicios Web",
+  "skill_6": "Optimización y Seguridad Web",
+  "skill_7": "Trabajo en Equipo y Comunicación Efectiva",
+  "skill_8": "Resolución de Problemas y Pensamiento Lógico",
+
+  "language_title": "Lenguajes"
+}

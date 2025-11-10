@@ -1,0 +1,53 @@
+{
+  "hero_subtitle": "I can help your company to",
+  "hero_title": "Connect and grow fast",
+  "inicio_title_sub": "Designer | Developer",
+  "Inicio_btn_1": "Resume",
+  "Inicio_btn_2": "Projects",
+
+  "about_title": "About me..",
+  "about_text": "My name is Ángel León and I have more than 3 years of experience in web application and website development.",
+  "about_text_plus": "My goal is to apply my skills to create effective and efficient solutions that contribute to team success. I am a proactive person with excellent problem-solving skills and a quick learner, always committed to excellence in every task.",
+  
+  "proyects_title": "Projects",
+  
+  "proyects_ciro_title": "WEB APP for E.B.N.B CIRO MALDONADO ZERPA School",
+  "proyects_ciro_plus": "Web Application for the optimization of administrative activities. The aim was to improve the efficiency in the management of processes and activities of the administrative department, which allowed the Ciro Maldonado Zerpa school to fulfill its mission of promoting comprehensive education framed under our constitution, guaranteeing ethical and moral values, to achieve good coexistence, inside and outside the institution.",
+  
+  "proyects_SIDCCAMBI_plus": "Web Application for the Optimization of Processes of the Cadastre Directorate of the Mayor's Office of the Mario Briceño Iragorry Municipality of Aragua State, a system that allowed the cadastre directorate to efficiently manage the operation of administrative processes in the work centers and posts located in the aforementioned area (mayor's office).",
+  
+  "Resume_title": "Resume",
+
+  "Experence_title": "Experience",
+  "Experence_btn": "Download Resume",
+  "Experence_title_sub_1": "Web Development",
+  "Present": "2023 - Present",
+  "Experence_title_sub_2": "Technical Support",
+  "Experence_1": "Web Application for the Optimization of Processes of the Cadastre Directorate of the Mayor's Office of the Mario Briceño Iragorry Municipality of Aragua State, a system that allowed the cadastre directorate to efficiently manage the operation of administrative processes in the work centers and posts located in the aforementioned area (mayor's office).",
+  "Experence_2": "Web Application for the optimization of administrative activities. The aim was to improve the efficiency in the management of processes and activities of the administrative department, which allowed the Ciro Maldonado Zerpa school to fulfill its mission of promoting comprehensive education framed under our constitution, guaranteeing ethical and moral values, to achieve good coexistence, inside and outside the institution.",
+  
+
+  "Educación_title": "Education",
+  "Educación_title_sub_1": "TSU in Informatics",
+  "Educación_title_sub_2": "Informatics Engineering",
+
+  "Educación_TSU_1": "Specialization in software development and database management.",
+  "Educación_TSU_2": "Proficiency in key programming languages such as PHP, JavaScript, and JSON.",
+  "Educación_TSU_3": "Project focused on administrative process automation.",
+
+  "Educación_ING_1": "Specialization in software development and database management.",
+  "Educación_ING_2": "Proficiency in Object-Oriented Programming and key programming languages such as PHP, JavaScript, JSON, and AJAX.",
+  "Educación_ING_3": "Project focused on cadastral administrative process automation.",
+
+  "skill_title": "Professional Skills",
+  "skill_1": "Web Developer",
+  "skill_2": "Full Stack Development",
+  "skill_3": "Responsive Interface Design (UI/UX)",
+  "skill_4": "Database Management",
+  "skill_5": "API and Web Services Integration",
+  "skill_6": "Web Optimization and Security",
+  "skill_7": "Teamwork and Effective Communication",
+  "skill_8": "Problem Solving and Logical Thinking",
+
+  "language_title": "Languages"
+}
